@@ -1,0 +1,39 @@
+
+
+
+export default class dataSwapi {
+	apiBase = "https://swapi.dev/api";
+async getResource(url){
+	const res = await fetch(`${this.apiBase}${url}`);
+
+return await res.json();
+};
+async getAllPeople(){
+	return this.getResource(`/people/`/*https://swapi.dev/api/people/1/*/);
+}
+async getPeople(id){
+	return this.getResource(`/people/${id}`/*https://swapi.dev/api/people/1/*/);
+}
+
+
+async getAllPlanet(){
+	return this.getResource(`/planets/`);
+}
+async getPlanet(id){
+	return this.getResource(`/planets/${id}`);
+}
+
+async getAllStarships(){
+	return this.getResource(`/starships/`);
+}
+async getStarships(id){
+	return this.getResource(`/starships/${id}`);
+}
+}
+
+// new object
+
+const people = new dataSwapi();
+people.getPeople(2).then((body) =>{
+	console.log(body);
+})

@@ -1,0 +1,14 @@
+
+.add-panel{
+	margin: 10px 0px ;
+padding: 2px;
+	width: 78%;
+}
+.btn-panel{
+	border: 1px solid black;
+	height: 32px;
+	width: 120px;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #fff;
+}

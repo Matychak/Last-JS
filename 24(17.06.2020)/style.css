@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+}
+.BigDiv{
+	width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	border: solid 10px white;
+	border-radius: 15px;
+	position: relative;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+..BigDiv img{
+	width: 100%;
+}
+
+.right_arrow, .left_arrow{
+	font-size: 48px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	margin-top: -32px;
+	cursor:pointer;
+}
+
+.right_arrow{
+right: 5px;
+}
+
+.left_arrow{
+	transform: rotate(180deg);
+	left: 0;
+}
+
+.MinDiv{
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	height: 100px;
+	overflow: hidden;
+}
+.MinDiv li{
+display: inline-block;
+width: 150px;
+height: 100px;
+ background-size: cover;
+ overflow: hidden;
+}
+.MinDiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+position: absolute;
+transition: 2s;
+}
+.MinDiv img{
+	width: 100%;
+}
+
+.right_arrow_min,.left_arrow_min{
+	position: absolute;
+	color: #000;
+	font-size: 24px;
+	top: 50%;
+	margin-top: -16px;
+	z-index: 2;
+	cursor: pointer;
+
+}
+
+.right_arrow_min{
+	right: 0;
+
+}
+
+.left_arrow_min{
+	left: 0;
+	transform: rotate(180deg);
+}

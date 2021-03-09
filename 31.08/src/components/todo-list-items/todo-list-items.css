@@ -1,0 +1,30 @@
+
+
+.btn_from_li{
+float: right;
+	width: 40px;
+}
+.btn_main{
+		border: 1px solid #28A745;
+	margin-left: 5px;
+	color: #28A745;
+	font-size: 13px;
+}
+.btn_del{
+	border: 1px solid #DC3545;
+	color: #DC3545;
+	font-size: 13px;
+}
+
+.done{
+text-decoration: line-through;	
+}
+
+.important{
+	font-weight: bold;
+	color: #478CC9
+}
+
+/*.list-group-item{
+	background-color: red;
+}*/

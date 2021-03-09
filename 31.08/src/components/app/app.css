@@ -1,0 +1,11 @@
+*{
+font-family: 'Raleway', sans-serif;
+}
+.todo-app{
+	margin: 20px auto;
+	width: 550px;
+}
+
+.top-panel{
+	margin: 20px 0;
+}

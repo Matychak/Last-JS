@@ -1,0 +1,1 @@
+https://github.com/yura-seredyuk/React-SWAPI.git
